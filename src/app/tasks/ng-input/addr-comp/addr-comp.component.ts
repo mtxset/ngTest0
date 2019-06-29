@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class AddrCompComponent implements OnInit {
 
-  @Input() location: { };
+  @Input() location: { address: string, city: string, country: string };
   constructor() { }
 
   ngOnInit() {

@@ -17,7 +17,7 @@ import { Router } from '@angular/router';
 export class TaskComp
 {
 
-  private navLinks: {path: string, label: string}[] =
+  navLinks: {path: string, label: string}[] =
   [
     { path: 'tasks-hide-them', label: 'directives-hide-them-all'},
     { path: 'cont-proj-multi', label: 'cont-proj-multi'},

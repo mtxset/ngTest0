@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NgChildVarsComponentChildComp implements OnInit {
 
-  private stopped = false;
-  private counter = 0;
+  public stopped = false;
+  public counter = 0;
   private intervalId;
 
   ngOnInit() {
