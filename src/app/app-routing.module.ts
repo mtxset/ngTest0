@@ -17,7 +17,7 @@ import { NgStyleExComp } from './tasks/ngStyle/ngStyle.comp';
 
 const routes: Routes =
 [
-  { path: '', component: TaskComp},
+  { path: '', component: HideThemAllComponent},
   { path: 'tasks-hide-them', component: HideThemAllComponent},
   { path: 'cont-proj-multi', component: ContProjMultiComponent},
   { path: 'cont-projection', component: ContProjectionComponent},
